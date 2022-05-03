@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/author/owner/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2022-05-03T01:23:30+09:00</updated>
+  <id>http://localhost:4000/author/owner/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Dev with blog | </title>
+  
+
+  
+    <subtitle>나의 블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+				<author>Jehoon Song</author>
+        <author>
+            <name>Jehoon Song</name>
+          
+            <email>realjehoon@gmail.com</email>
+          
+          
+        </author>
+			
+    
+  
+
+  
+  
+
+  
+</feed>
