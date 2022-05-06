@@ -2,9 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
-    <description>나의 블로그</description>
+    <description>-</description>
     <link>
     http://localhost:4000</link>
+    
+      
+      <item>
+        <title>const 키워드 사용 정리 (int const *, int * const)</title>
+        
+          <description>&lt;p&gt;&lt;strong&gt;const&lt;/strong&gt; 로 변수를 상수로 선언하기&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 06 May 2022 09:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/difference_const_ptr</link>
+        <guid isPermaLink="true">http://localhost:4000/difference_const_ptr</guid>
+      </item>
+      
     
       
       <item>
@@ -23,22 +38,7 @@
     
       
       <item>
-        <title>c lang test</title>
-        
-          <description>&lt;p&gt;&lt;strong&gt;RSSH(Reverse SSH)&lt;/strong&gt; 로 연결된 리눅스 디바이스에 &lt;strong&gt;wget&lt;/strong&gt; 명령을 사용하여 파일을 업로드/다운로드 하려고 한다.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Mon, 02 May 2022 09:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/ssh_wget-copy</link>
-        <guid isPermaLink="true">http://localhost:4000/ssh_wget-copy</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Welcome to Ghost111</title>
+        <title>Welcome to Ghost</title>
         
           <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
 

@@ -6,7 +6,7 @@ cover: false
 class: 'author-template'
 navigation: True
 label: Author
-logo: 'assets/images/ghost.png'
+logo: 'assets/blog/picture.png'
 ---
 <!-- < default}} -->
 <!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
@@ -24,7 +24,11 @@ logo: 'assets/images/ghost.png'
                 {% endif %}
                 <h1 class="site-title">{{ author[1].name }}</h1>
                 {% if author[1].bio %}
-                    <h2 class="author-bio">{{ author[1].bio }}</h2>
+                    <h2 class="author-bio">{{ author[1].bio }}
+                        {% if author[1].picture %}
+                            <img class="subscribe-button" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ page.author }}" />
+                        {% endif %}
+                    </h2> 
                 {% endif %}
                 <div class="author-meta">
                     {% if author[1].location %}

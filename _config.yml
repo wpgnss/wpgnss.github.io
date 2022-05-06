@@ -19,12 +19,12 @@ words_per_minute: 200
 baseurl: /
 
 # Website info
-title: Dev with blog
-description: 나의 블로그
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+title: Dev with sharing
+description: '-'
+cover: assets/blog/blog-cover.png
+logo: assets/blog/blog-logo-white.png
+logo_dark: assets/blog/blog-logo-white.png
+favicon: assets/blog/picture.png
 CNAME: #add cname for website to be created
 
 # Social info

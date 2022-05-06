@@ -34,28 +34,31 @@
             }
         </style>
     <![endif]-->
-    
+
+     <!-- 웹 폰트 설정 -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="나의 블로그" />
-    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <meta name="description" content="-" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/blog/picture.png" type="image/png" />
     <link rel="canonical" href="http://localhost:4000/archive" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="Dev with blog" />
+    <meta property="og:site_name" content="Dev with sharing" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="All Posts" />
-    <meta property="og:description" content="나의 블로그" />
+    <meta property="og:description" content="-" />
     <meta property="og:url" content="http://localhost:4000/archive" />
-    <meta property="og:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
+    <meta property="og:image" content="http://localhost:4000/assets/blog/blog-cover.png" />
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="All Posts" />
-    <meta name="twitter:description" content="나의 블로그" />
+    <meta name="twitter:description" content="-" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/blog/blog-cover.png" />
     <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Dev with blog" />
+    <meta name="twitter:data1" content="Dev with sharing" />
     <meta name="twitter:site" content="@tryghost" />
     <meta name="twitter:creator" content="@tryghost" />
     <meta property="og:image:width" content="2000" />
@@ -67,13 +70,13 @@
     "@type": "Website",
     "publisher": {
         "@type": "Organization",
-        "name": "Dev with blog",
-        "logo": "http://localhost:4000/assets/images/blog-icon.png"
+        "name": "Dev with sharing",
+        "logo": "http://localhost:4000/assets/blog/blog-logo-white.png"
     },
     "url": "http://localhost:4000/archive",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/images/blog-cover.jpg",
+        "url": "http://localhost:4000/assets/blog/blog-cover.png",
         "width": 2000,
         "height": 666
     },
@@ -81,7 +84,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/archive"
     },
-    "description": "나의 블로그"
+    "description": "-"
 }
     </script>
 
@@ -113,7 +116,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="Dev with blog" /></a>
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/blog/blog-logo-white.png" alt="Dev with sharing" /></a>
             
         
         
@@ -175,6 +178,15 @@ into the {body} of the default.hbs template -->
     
     <li><span class="post-date">
         
+        2022-05-06 </span><a href="./difference_const_ptr" target="_blank">const 키워드 사용 정리 (int const *, int * const)</a></li>
+
+    
+        
+        
+        
+    
+    <li><span class="post-date">
+        
         2022-05-02 </span><a href="./ssh_wget" target="_blank">rssh로 wget 요청 후 ssh 연결 종료 방법</a></li>
 
     
@@ -184,16 +196,7 @@ into the {body} of the default.hbs template -->
     
     <li><span class="post-date">
         
-        2022-05-02 </span><a href="./ssh_wget-copy" target="_blank">c lang test</a></li>
-
-    
-        
-        
-        
-    
-    <li><span class="post-date">
-        
-        2022-03-29 </span><a href="./test" target="_blank">Welcome to Ghost111</a></li>
+        2022-03-29 </span><a href="./test" target="_blank">Welcome to Ghost</a></li>
 
     
         
@@ -303,7 +306,7 @@ $(function() {
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">Dev with blog</a> &copy; 2022</section>
+                <section class="copyright"><a href="http://localhost:4000/">Dev with sharing</a> &copy; 2022</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -324,9 +327,9 @@ $(function() {
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                    <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="Dev with blog" />
+                    <img class="subscribe-overlay-logo" src="/assets/blog/blog-logo-white.png" alt="Dev with sharing" />
                 
-                <h1 class="subscribe-overlay-title">Subscribe to Dev with blog</h1>
+                <h1 class="subscribe-overlay-title">Subscribe to Dev with sharing</h1>
                 <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
                 <form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
@@ -357,7 +360,7 @@ $(function() {
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script> -->
 
 
     <!-- Paginator increased to "infinit" in _config.yml -->

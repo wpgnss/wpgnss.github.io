@@ -1,9 +1,9 @@
 ---
 layout: page
 current: about
-title: About1
+title: About
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'assets/blog/picture.png'
 class: page-template
 subclass: 'post page'
 ---

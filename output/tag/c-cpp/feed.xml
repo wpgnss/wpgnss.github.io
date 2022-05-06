@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/author/daniel/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/tag/c-cpp/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
   <updated>2022-05-07T02:15:33+09:00</updated>
-  <id>http://localhost:4000/author/daniel/feed.xml</id>
+  <id>http://localhost:4000/tag/c-cpp/feed.xml</id>
 
   
   
@@ -113,57 +113,6 @@
 
       
         <summary type="html">const 로 변수를 상수로 선언하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">rssh로 wget 요청 후 ssh 연결 종료 방법</title>
-      <link href="http://localhost:4000/ssh_wget" rel="alternate" type="text/html" title="rssh로 wget 요청 후 ssh 연결 종료 방법" />
-      <published>2022-05-02T09:00:00+09:00</published>
-      <updated>2022-05-02T09:00:00+09:00</updated>
-      <id>http://localhost:4000/ssh_wget</id>
-      <content type="html" xml:base="http://localhost:4000/ssh_wget">&lt;p&gt;&lt;strong&gt;RSSH(Reverse SSH)&lt;/strong&gt; 로 연결된 리눅스 디바이스에 &lt;strong&gt;wget&lt;/strong&gt; 명령을 사용하여 파일을 업로드/다운로드 하려고 한다.&lt;/p&gt;
-
-&lt;p&gt;작업하려는 디바이스가 하나라면 연결된 RSSH 세션으로 접속하여 wget 명령을 사용하고 기다리면 된다.&lt;/p&gt;
-
-&lt;p&gt;하지만 작업하려는 디바이스가 여러대라면 모든 디바이스를 순차적으로 작업할 수는 없다.&lt;/p&gt;
-
-&lt;p&gt;이럴 땐 아래와 같이 &lt;strong&gt;-b&lt;/strong&gt; 옵션을 사용하면 wget을 &lt;strong&gt;background&lt;/strong&gt; 에서 동작할 수 있고, SSH 세션이 종료되더라도 업로드/다운로드를 수행한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; http://file-server.com/large-file.iso
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://linux.die.net/man/1/wget&quot;&gt;man wget&lt;/a&gt;을 보면 -b 옵션의 설명은 아래와 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt;, &lt;span class=&quot;nt&quot;&gt;--background&lt;/span&gt;
-Go to background immediately after startup. If no output file is specified via the &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt;, output is redirected to wget-log.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Daniel</name>
-        
-          <email>realjehoon@gmail.com</email>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="linux" />
-      
-
-      
-        <summary type="html">RSSH(Reverse SSH) 로 연결된 리눅스 디바이스에 wget 명령을 사용하여 파일을 업로드/다운로드 하려고 한다.</summary>
       
 
       

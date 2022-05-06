@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/getting-started/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-05-03T01:23:30+09:00</updated>
+  <updated>2022-05-07T02:15:33+09:00</updated>
   <id>http://localhost:4000/tag/getting-started/feed.xml</id>
 
   
@@ -12,11 +12,11 @@
   
 
   
-    <title type="html">Dev with blog | </title>
+    <title type="html">Dev with sharing | </title>
   
 
   
-    <subtitle>나의 블로그</subtitle>
+    <subtitle>-</subtitle>
   
 
   
@@ -43,8 +43,8 @@
 
   
     <entry>
-      <title type="html">Welcome to Ghost111</title>
-      <link href="http://localhost:4000/test" rel="alternate" type="text/html" title="Welcome to Ghost111" />
+      <title type="html">Welcome to Ghost</title>
+      <link href="http://localhost:4000/test" rel="alternate" type="text/html" title="Welcome to Ghost" />
       <published>2022-03-29T19:00:00+09:00</published>
       <updated>2022-03-29T19:00:00+09:00</updated>
       <id>http://localhost:4000/test</id>
