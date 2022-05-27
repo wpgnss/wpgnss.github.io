@@ -11,7 +11,7 @@
 
 
 
-    <title>rssh로 wget 요청 후 ssh 연결 종료 방법</title>
+    <title>ubuntu 22.04에서 ruby 2.7.x 설치</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -41,24 +41,24 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="-" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/blog/picture.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/ssh_wget" />
+    <link rel="canonical" href="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Dev with sharing" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="rssh로 wget 요청 후 ssh 연결 종료 방법" />
-    <meta property="og:description" content="RSSH(Reverse SSH) 로 연결된 리눅스 디바이스에 wget 명령을 사용하여 파일을 업로드/다운로드 하려고 한다. 작업하려는 디바이스가 하나라면 연결된 RSSH 세션으로 접속하여 wget 명령을 사용하고 기다리면 된다. 하지만 작업하려는 디바이스가 여러대라면 모든 디바이스를 순차적으로 작업할 수는 없다. 이럴 땐 아래와 같이 -b 옵션을 사용하면 wget을 background 에서 동작할 수 있고, SSH 세션이" />
-    <meta property="og:url" content="http://localhost:4000/ssh_wget" />
+    <meta property="og:title" content="ubuntu 22.04에서 ruby 2.7.x 설치" />
+    <meta property="og:description" content="우분투 22.04 환경에서 github page 블로그를 만들려고 했습니다. github page는 jekyll 기반으로 정적페이지를 만들어 배포하기 위해 이것저것 설치했습니다. 기존에 windows 10 에서는 다른 블로그들을 참고하여 쉽게 환경설정이 되었지만, 이번에 Ubuntu 22.04 에서 추가로 환경을 만들다보니 막히는 부분이 있어서 정리할 겸 내용 공유합니다. github page, jekyll 의 호환성 Jekyll (software) -" />
+    <meta property="og:url" content="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04" />
     <meta property="og:image" content="http://localhost:4000/assets/blog/linux-minecraft.png" />
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta property="article:author" content="https://www.facebook.com/ghost" />
-    <meta property="article:published_time" content="2022-05-02T09:00:00+09:00" />
-    <meta property="article:modified_time" content="2022-05-02T09:00:00+09:00" />
+    <meta property="article:published_time" content="2022-05-27T09:00:00+09:00" />
+    <meta property="article:modified_time" content="2022-05-27T09:00:00+09:00" />
     <meta property="article:tag" content="Linux" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="rssh로 wget 요청 후 ssh 연결 종료 방법" />
-    <meta name="twitter:description" content="RSSH(Reverse SSH) 로 연결된 리눅스 디바이스에 wget 명령을 사용하여 파일을 업로드/다운로드 하려고 한다. 작업하려는 디바이스가 하나라면 연결된 RSSH 세션으로 접속하여 wget 명령을 사용하고 기다리면 된다. 하지만 작업하려는 디바이스가 여러대라면 모든 디바이스를 순차적으로 작업할 수는 없다. 이럴 땐 아래와 같이 -b 옵션을 사용하면 wget을 background 에서 동작할 수 있고, SSH 세션이" />
+    <meta name="twitter:title" content="ubuntu 22.04에서 ruby 2.7.x 설치" />
+    <meta name="twitter:description" content="우분투 22.04 환경에서 github page 블로그를 만들려고 했습니다. github page는 jekyll 기반으로 정적페이지를 만들어 배포하기 위해 이것저것 설치했습니다. 기존에 windows 10 에서는 다른 블로그들을 참고하여 쉽게 환경설정이 되었지만, 이번에 Ubuntu 22.04 에서 추가로 환경을 만들다보니 막히는 부분이 있어서 정리할 겸 내용 공유합니다. github page, jekyll 의 호환성 Jekyll (software) -" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/blog/linux-minecraft.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -79,7 +79,7 @@
         "name": "Dev with sharing",
         "logo": "http://localhost:4000/assets/blog/blog-logo-white.png"
     },
-    "url": "http://localhost:4000/ssh_wget",
+    "url": "http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04",
     "image": {
         "@type": "ImageObject",
         "url": "http://localhost:4000/assets/blog/linux-minecraft.png",
@@ -88,9 +88,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/ssh_wget"
+        "@id": "http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04"
     },
-    "description": "RSSH(Reverse SSH) 로 연결된 리눅스 디바이스에 wget 명령을 사용하여 파일을 업로드/다운로드 하려고 한다. 작업하려는 디바이스가 하나라면 연결된 RSSH 세션으로 접속하여 wget 명령을 사용하고 기다리면 된다. 하지만 작업하려는 디바이스가 여러대라면 모든 디바이스를 순차적으로 작업할 수는 없다. 이럴 땐 아래와 같이 -b 옵션을 사용하면 wget을 background 에서 동작할 수 있고, SSH 세션이"
+    "description": "우분투 22.04 환경에서 github page 블로그를 만들려고 했습니다. github page는 jekyll 기반으로 정적페이지를 만들어 배포하기 위해 이것저것 설치했습니다. 기존에 windows 10 에서는 다른 블로그들을 참고하여 쉽게 환경설정이 되었지만, 이번에 Ubuntu 22.04 에서 추가로 환경을 만들다보니 막히는 부분이 있어서 정리할 겸 내용 공유합니다. github page, jekyll 의 호환성 Jekyll (software) -"
 }
     </script>
 
@@ -103,7 +103,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="rssh로 wget 요청 후 ssh 연결 종료 방법" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="ubuntu 22.04에서 ruby 2.7.x 설치" href="/feed.xml" />
 
 
 </head>
@@ -171,7 +171,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 2 May 2022"> 2 May 2022</time>
+                    <time class="post-full-meta-date" datetime="27 May 2022">27 May 2022</time>
                     
                         <span class="date-divider"> / </span>
                         
@@ -181,12 +181,12 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">rssh로 wget 요청 후 ssh 연결 종료 방법</h1>
+                <h1 class="post-full-title">ubuntu 22.04에서 ruby 2.7.x 설치</h1>
 
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      2 min read
                     
                 </span>
             </header>
@@ -200,23 +200,128 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><strong>RSSH(Reverse SSH)</strong> 로 연결된 리눅스 디바이스에 <strong>wget</strong> 명령을 사용하여 파일을 업로드/다운로드 하려고 한다.</p>
+                    <p><strong>우분투 22.04</strong> 환경에서 <strong>github page</strong> 블로그를 만들려고 했습니다.</p>
 
-<p>작업하려는 디바이스가 하나라면 연결된 RSSH 세션으로 접속하여 wget 명령을 사용하고 기다리면 된다.</p>
+<p><strong>github page</strong>는 <strong>jekyll</strong> 기반으로 정적페이지를 만들어 배포하기 위해 이것저것 설치했습니다. 기존에 windows 10 에서는 다른 블로그들을 참고하여 쉽게 환경설정이 되었지만, 이번에 <strong>Ubuntu 22.04</strong> 에서 추가로 환경을 만들다보니 막히는 부분이 있어서 정리할 겸 내용 공유합니다.</p>
 
-<p>하지만 작업하려는 디바이스가 여러대라면 모든 디바이스를 순차적으로 작업할 수는 없다.</p>
+<h1 id="github-page-jekyll-의-호환성">github page, jekyll 의 호환성</h1>
 
-<p>이럴 땐 아래와 같이 <strong>-b</strong> 옵션을 사용하면 wget을 <strong>background</strong> 에서 동작할 수 있고, SSH 세션이 종료되더라도 업로드/다운로드를 수행한다.</p>
+<p><a href="https://en.wikipedia.org/wiki/Jekyll_(software)">Jekyll (software) - Wikipedia</a></p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-b</span> http://file-server.com/large-file.iso
+<p>Jekyll은 Markdown이나 Text 등을 기반으로 static site 를 만들어 주는 툴입니다. Jekyll 은 ruby 라는 언어로 개발되었는데, 2021년 04월 릴리즈 된 <strong>ruby 3.0.1</strong> 이후 버전부터는 Jekyll 과의 호환성이슈가 발생하고 있습니다.</p>
+
+<p>때문에 Jekyll을 사용해 github page를 만들기 위해서는 <strong>ruby 2.x.x</strong> 버전을 선택해야 합니다.</p>
+
+<h1 id="ubuntu-2204에서-ruby-설치">ubuntu 22.04에서 ruby 설치</h1>
+
+<p>ruby를 설치하기 위한 방법은 크게 4가지입니다.</p>
+
+<ul>
+  <li><strong>snap</strong>, <strong>apt</strong> 등 패키지 인스톨러를 사용한 설치</li>
+  <li><strong>ruby 인스톨러</strong>를 사용한 설치</li>
+  <li><strong>ruby 버전 관리자</strong>를 사용한 설치</li>
+  <li><strong>ruby 소스코드</strong>를 다운로드 하여 설치</li>
+</ul>
+
+<p><a href="https://www.ruby-lang.org/ko/documentation/installation/">Ruby 설치하기</a></p>
+
+<p>이 중 저는 ruby 버전 관리자중 하나인 rbenv를 사용했습니다. 패키지 인스톨러부터해서 몇가지 방법으로 설치를 시도해 보았지만, Jekyll 페이지를 띄우기 까지 에러들이 발생하여 여러 방법들을 찾다 rbenv로 Jekyll 환경을 마무리 할 수 있었습니다.</p>
+
+<h1 id="rbenv-설치">rbenv 설치</h1>
+
+<p><strong>rbenv</strong> github repo에서 clone 하기기</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 </code></pre></div></div>
 
-<p><a href="https://linux.die.net/man/1/wget">man wget</a>을 보면 -b 옵션의 설명은 아래와 같다.</p>
+<p>rbenv 경로를 .bashrc 에 추가하기</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-b</span>, <span class="nt">--background</span>
-Go to background immediately after startup. If no output file is specified via the <span class="nt">-o</span>, output is redirected to wget-log.
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'export PATH="$HOME/.rbenv/bin:$PATH"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'eval "$(rbenv init -)"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nv">$ </span><span class="nb">exec</span> <span class="nv">$SHELL</span>
 </code></pre></div></div>
 
+<p><strong>rbenv</strong>에서 ruby install 시 사용하는 <strong>ruby-build</strong> 플러그인 설치</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/rbenv/ruby-build.git <span class="s2">"</span><span class="si">$(</span>rbenv root<span class="si">)</span><span class="s2">"</span>/plugins/ruby-build
+</code></pre></div></div>
+
+<h1 id="ruby-276-설치">ruby 2.7.6 설치</h1>
+
+<p>의존성 패키지 설치</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>apt-get <span class="nb">install </span>autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev
+</code></pre></div></div>
+
+<p>ruby install</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rbenv <span class="nb">install </span>2.7.6
+</code></pre></div></div>
+
+<p>위 명령을 입력하면 ruby 2.7.6 버전을 다운로드하여 설치한다. 2.7.6 버전은 ruby 2.x 버전의 마지막 stable release 버전이다.</p>
+
+<p>많은 블로그 등에서 위와 같은 과정으로 ruby를 install 했다.</p>
+
+<p>그런데 ruby2.x에서 사용하던 의존성 중 하나인 <strong>OpenSSL 1.x.x</strong>이 ubuntu 22.04에서는 지원하지 않고 오직 OpenSSL 3.0 만 지원하고 있다.</p>
+
+<p>ruby 3.x에서는 OpenSSL 3.x으로도 사용 가능하다.</p>
+
+<p>하지만 Jekyll을 사용하려면 ruby 2.x를 사용해야 하기 때문에 OpenSSL 1.x를 추가로 설치해야 한다.</p>
+
+<p><a href="https://github.com/rbenv/ruby-build/wiki#openssl-version-compatibility">Home · rbenv/ruby-build Wiki</a></p>
+
+<h1 id="openssl-1x-설치">OpenSSL 1.x 설치</h1>
+
+<p>OpenSSL 1.x 다운로드</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> ~/Downloads
+<span class="nv">$ </span>wget https://www.openssl.org/source/openssl-1.1.1o.tar.gz
+<span class="nv">$ </span><span class="nb">tar </span>xf openssl-1.1.1o.tar.gz
+</code></pre></div></div>
+
+<p>컴파일</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> ~/Downloads/openssl-1.1.1o
+<span class="nv">$ </span>./config <span class="nt">--prefix</span><span class="o">=</span>/opt/openssl-1.1.1o <span class="nt">--openssldir</span><span class="o">=</span>/opt/openssl-1.1.1o shared zlib
+<span class="nv">$ </span>make
+<span class="nv">$ </span>make <span class="nb">test</span>
+<span class="nv">$ </span><span class="nb">sudo </span>make <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>SSL system cert를 OpenSSL 디렉토리에 Link 생성</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo rm</span> <span class="nt">-rf</span> /opt/openssl-1.1.1o/certs
+<span class="nv">$ </span><span class="nb">sudo ln</span> <span class="nt">-s</span> /etc/ssl/certs /opt/openssl-1.1.1o
+</code></pre></div></div>
+
+<h1 id="다시-ruby-설치">다시 ruby 설치</h1>
+
+<p>설치한 OpenSSL path를 추가하여 ruby 설치</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ RUBY_CONFIGURE_OPTS</span><span class="o">=</span><span class="nt">--with-openssl-dir</span><span class="o">=</span>/opt/openssl-1.1.1o rbenv <span class="nb">install </span>2.7.6
+</code></pre></div></div>
+
+<p>설치한 ruby 버전을 global 설정</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rbenv global 2.7.1
+</code></pre></div></div>
+
+<p><img src="assets/images/2022-05-27/Untitled.png" alt="" /></p>
+
+<h1 id="jekyll-설치-및-실행">Jekyll 설치 및 실행</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div>
+
+<p>블로그 디렉토리에서 bundle install</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">(</span>blog <span class="nb">dir</span><span class="o">)</span> <span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>블로그 실행</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">(</span>blog <span class="nb">dir</span><span class="o">)</span> <span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
 
                 </div>
 
@@ -306,16 +411,16 @@ Go to background immediately after startup. If no output file is specified via t
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04">ubuntu 22.04에서 ruby 2.7.x 설치</a></li>
-                                        
+                                  
+                                
+                                  
+                                
+                                  
                                     
-                                  
-                                
-                                  
-                                
-                                  
+                                        
+                                        
+                                            <li><a href="/ssh_wget">rssh로 wget 요청 후 ssh 연결 종료 방법</a></li>
+                                        
                                     
                                   
                                 
@@ -351,6 +456,9 @@ Go to background immediately after startup. If no output file is specified via t
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
 
@@ -406,55 +514,6 @@ Go to background immediately after startup. If no output file is specified via t
 
             
 
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/test">
-                <div class="post-card-image" style="background-image: url(/assets/blog/python-minecraft.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/test">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Welcome to Ghost</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Hey! Welcome to Ghost, it’s great to have you :)
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
         </div>
     </div>
 </aside>
@@ -470,18 +529,18 @@ Go to background immediately after startup. If no output file is specified via t
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">rssh로 wget 요청 후 ssh 연결 종료 방법</div>
+    <div class="floating-header-title">ubuntu 22.04에서 ruby 2.7.x 설치</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=rssh%EB%A1%9C+wget+%EC%9A%94%EC%B2%AD+%ED%9B%84+ssh+%EC%97%B0%EA%B2%B0+%EC%A2%85%EB%A3%8C+%EB%B0%A9%EB%B2%95&amp;url=https://jekyllt.github.io/jasper2/ssh_wget"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=ubuntu+22.04%EC%97%90%EC%84%9C+ruby+2.7.x+%EC%84%A4%EC%B9%98&amp;url=https://jekyllt.github.io/jasper2/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jekyllt.github.io/jasper2/ssh_wget"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jekyllt.github.io/jasper2/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
