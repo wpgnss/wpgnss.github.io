@@ -8,13 +8,28 @@
     
       
       <item>
+        <title>ubuntu 22.04 에서 USB Serial(/dev/ttyUSB) 인식되지 않는 문제</title>
+        
+          <description>&lt;p&gt;ubuntu 22.04 에서 usb serial 장치를 사용하려고 연결해보았습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 27 May 2022 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/usbserial</link>
+        <guid isPermaLink="true">http://localhost:4000/usbserial</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>ubuntu 22.04에서 ruby 2.7.x 설치</title>
         
           <description>&lt;p&gt;&lt;strong&gt;우분투 22.04&lt;/strong&gt; 환경에서 &lt;strong&gt;github page&lt;/strong&gt; 블로그를 만들려고 했습니다.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Fri, 27 May 2022 09:00:00 +0900</pubDate>
+        <pubDate>Fri, 27 May 2022 00:00:00 +0900</pubDate>
         <link>
         http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04</link>
         <guid isPermaLink="true">http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04</guid>

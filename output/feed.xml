@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-27T14:34:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev with sharing</title><subtitle>-</subtitle><entry><title type="html">ubuntu 22.04에서 ruby 2.7.x 설치</title><link href="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04" rel="alternate" type="text/html" title="ubuntu 22.04에서 ruby 2.7.x 설치" /><published>2022-05-27T09:00:00+09:00</published><updated>2022-05-27T09:00:00+09:00</updated><id>http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04-</id><content type="html" xml:base="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04">&lt;p&gt;&lt;strong&gt;우분투 22.04&lt;/strong&gt; 환경에서 &lt;strong&gt;github page&lt;/strong&gt; 블로그를 만들려고 했습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-27T17:06:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev with sharing</title><subtitle>-</subtitle><entry><title type="html">ubuntu 22.04에서 ruby 2.7.x 설치</title><link href="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04" rel="alternate" type="text/html" title="ubuntu 22.04에서 ruby 2.7.x 설치" /><published>2022-05-27T00:00:00+09:00</published><updated>2022-05-27T00:00:00+09:00</updated><id>http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04-</id><content type="html" xml:base="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04">&lt;p&gt;&lt;strong&gt;우분투 22.04&lt;/strong&gt; 환경에서 &lt;strong&gt;github page&lt;/strong&gt; 블로그를 만들려고 했습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;github page&lt;/strong&gt;는 &lt;strong&gt;jekyll&lt;/strong&gt; 기반으로 정적페이지를 만들어 배포하기 위해 이것저것 설치했습니다. 기존에 windows 10 에서는 다른 블로그들을 참고하여 쉽게 환경설정이 되었지만, 이번에 &lt;strong&gt;Ubuntu 22.04&lt;/strong&gt; 에서 추가로 환경을 만들다보니 막히는 부분이 있어서 정리할 겸 내용 공유합니다.&lt;/p&gt;
 
@@ -104,7 +104,7 @@
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv global 2.7.1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27/Untitled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27/ruby_install.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;jekyll-설치-및-실행&quot;&gt;Jekyll 설치 및 실행&lt;/h1&gt;
 
@@ -119,7 +119,63 @@
 &lt;p&gt;블로그 실행&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;blog &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Daniel</name><email>realjehoon@gmail.com</email></author><category term="linux" /><summary type="html">우분투 22.04 환경에서 github page 블로그를 만들려고 했습니다.</summary></entry><entry><title type="html">const 키워드 사용 정리 (int const *, int * const)</title><link href="http://localhost:4000/difference_const_ptr" rel="alternate" type="text/html" title="const 키워드 사용 정리 (int const *, int * const)" /><published>2022-05-06T09:00:00+09:00</published><updated>2022-05-06T09:00:00+09:00</updated><id>http://localhost:4000/difference_const_ptr</id><content type="html" xml:base="http://localhost:4000/difference_const_ptr">&lt;p&gt;&lt;strong&gt;const&lt;/strong&gt; 로 변수를 상수로 선언하기&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Daniel</name><email>realjehoon@gmail.com</email></author><category term="linux" /><summary type="html">우분투 22.04 환경에서 github page 블로그를 만들려고 했습니다.</summary></entry><entry><title type="html">ubuntu 22.04 에서 USB Serial(/dev/ttyUSB) 인식되지 않는 문제</title><link href="http://localhost:4000/usbserial" rel="alternate" type="text/html" title="ubuntu 22.04 에서 USB Serial(/dev/ttyUSB) 인식되지 않는 문제" /><published>2022-05-27T00:00:00+09:00</published><updated>2022-05-27T00:00:00+09:00</updated><id>http://localhost:4000/usbserial</id><content type="html" xml:base="http://localhost:4000/usbserial">&lt;p&gt;ubuntu 22.04 에서 usb serial 장치를 사용하려고 연결해보았습니다.&lt;/p&gt;
+
+&lt;p&gt;이전에 사용하던 배포판(20.04) 에서는 연결하고 dialout, tty 그룹정도만 추가해주면 됬는데.. ubuntu 22.04에서는 잘되지 않았다..&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;usermod &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-G&lt;/span&gt; dialout &lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;usermod &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-G&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;tty&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;lsusb 로 USB Serial 인식 확인됨
+    &lt;ul&gt;
+      &lt;li&gt;Silicon Labs CP210x UART Bridge&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;syslog 확인해보니 brltty에 의해 USB driver가 정상적으로 access 되지 않고 있음
+    &lt;ul&gt;
+      &lt;li&gt;sudo dmesg&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%201.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;brltty
+    &lt;ul&gt;
+      &lt;li&gt;ubuntu 22.04 에서 기본 소프트웨어로 추가된 점자 디스플레이 관련 소프트웨어&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%202.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;brltty 삭제
+    &lt;ul&gt;
+      &lt;li&gt;필요하지 않을 것으로 예상되어 brltty 삭제&lt;/li&gt;
+      &lt;li&gt;sudo apt autoremove brltty&lt;/li&gt;
+      &lt;li&gt;혹시 brltty를 사용한다면 rule을 수정해야함 (&lt;a href=&quot;https://unix.stackexchange.com/questions/670636/unable-to-use-usb-dongle-based-on-usb-serial-converter-chip&quot;&gt;https://unix.stackexchange.com/questions/670636/unable-to-use-usb-dongle-based-on-usb-serial-converter-chip&lt;/a&gt;)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%203.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;USB Serial 인식&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%204.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%205.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Daniel</name><email>realjehoon@gmail.com</email></author><category term="linux" /><summary type="html">ubuntu 22.04 에서 usb serial 장치를 사용하려고 연결해보았습니다.</summary></entry><entry><title type="html">const 키워드 사용 정리 (int const *, int * const)</title><link href="http://localhost:4000/difference_const_ptr" rel="alternate" type="text/html" title="const 키워드 사용 정리 (int const *, int * const)" /><published>2022-05-06T09:00:00+09:00</published><updated>2022-05-06T09:00:00+09:00</updated><id>http://localhost:4000/difference_const_ptr</id><content type="html" xml:base="http://localhost:4000/difference_const_ptr">&lt;p&gt;&lt;strong&gt;const&lt;/strong&gt; 로 변수를 상수로 선언하기&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C&lt;/code&gt; 자료형을 선언할 때 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt; 를 사용하면 변수를 상수화 할 수 있다.&lt;/p&gt;
 
@@ -286,46 +342,4 @@ Go to background immediately after startup. If no output file is specified via t
 &lt;p&gt;You can toggle this preference on at the bottom of Ghost's General Settings&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/private.png&quot; alt=&quot;private&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar.&lt;/p&gt;
-&lt;p&gt;Do remember though, this is &lt;em&gt;not&lt;/em&gt; secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.&lt;/p&gt;</content><author><name>ghost</name></author><category term="Getting started" /><summary type="html">Sometimes you might want to put your site behind closed doors If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase. You can toggle this preference on at the bottom of Ghost's General Settings Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar. Do remember though, this is not secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.</summary></entry><entry><title type="html">Advanced Markdown tips</title><link href="http://localhost:4000/advanced-markdown" rel="alternate" type="text/html" title="Advanced Markdown tips" /><published>2017-07-27T14:00:00+09:00</published><updated>2017-07-27T14:00:00+09:00</updated><id>http://localhost:4000/advanced-markdown</id><content type="html" xml:base="http://localhost:4000/advanced-markdown">&lt;p&gt;There are lots of powerful things you can do with the Ghost editor&lt;/p&gt;
-&lt;p&gt;If you've gotten pretty comfortable with &lt;a href=&quot;/the-editor/&quot;&gt;all the basics&lt;/a&gt; of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
-&lt;p&gt;As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.&lt;/p&gt;
-&lt;h2 id=&quot;specialformatting&quot;&gt;Special formatting&lt;/h2&gt;
-&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;s&gt;strike through&lt;/s&gt;&lt;/li&gt;
-&lt;li&gt;&lt;mark&gt;highlight&lt;/mark&gt;&lt;/li&gt;
-&lt;li&gt;*escaped characters*&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;writingcodeblocks&quot;&gt;Writing code blocks&lt;/h2&gt;
-&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.my-link {
-    text-decoration: underline;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using &lt;a href=&quot;http://prismjs.com/&quot;&gt;Prism.js&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;fullbleedimages&quot;&gt;Full bleed images&lt;/h2&gt;
-&lt;p&gt;One neat trick which you can use in Markdown to distinguish between different types of images is to add a &lt;code&gt;#hash&lt;/code&gt; value to the end of the source URL, and then target images containing the hash with special styling. For example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/walking.jpg#full&quot; alt=&quot;walking&quot;&gt;&lt;/p&gt;
-&lt;p&gt;which is styled with...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;img[src$=&amp;quot;#full&amp;quot;] {
-    max-width: 100vw;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles.&lt;/p&gt;
-&lt;h2 id=&quot;referencelists&quot;&gt;Reference lists&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;The quick brown &lt;a href=&quot;https://en.wikipedia.org/wiki/Fox&quot; title=&quot;Wikipedia: Fox&quot;&gt;fox&lt;/a&gt;, jumped over the lazy &lt;a href=&quot;https://en.wikipedia.org/wiki/Dog&quot; title=&quot;Wikipedia: Dog&quot;&gt;dog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
-&lt;h2 id=&quot;creatingfootnotes&quot;&gt;Creating footnotes&lt;/h2&gt;
-&lt;p&gt;The quick brown fox&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; jumped over the lazy dog&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post.&lt;/p&gt;
-&lt;h2 id=&quot;fullhtml&quot;&gt;Full HTML&lt;/h2&gt;
-&lt;p&gt;Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;hr class=&quot;footnotes-sep&quot;&gt;
-&lt;section class=&quot;footnotes&quot;&gt;
-&lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Foxes are red &lt;a href=&quot;#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Dogs are usually not red &lt;a href=&quot;#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>ghost</name></author><category term="Getting started" /><summary type="html">There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using. Special formatting As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example: strike through highlight *escaped characters* Writing code blocks There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, like this. Larger snippets of code can be displayed across multiple lines using triple back ticks: .my-link { text-decoration: underline; } If you want to get really fancy, you can even add syntax highlighting using Prism.js. Full bleed images One neat trick which you can use in Markdown to distinguish between different types of images is to add a #hash value to the end of the source URL, and then target images containing the hash with special styling. For example: which is styled with... img[src$=&amp;quot;#full&amp;quot;] { max-width: 100vw; } This creates full-bleed images in the Casper theme, which stretch beyond their usual boundaries right up to the edge of the window. Every theme handles these types of things slightly differently, but it's a great trick to play with if you want to have a variety of image sizes and styles. Reference lists The quick brown fox, jumped over the lazy dog. Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference. Creating footnotes The quick brown fox[1] jumped over the lazy dog[2]. Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post. Full HTML Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example: Foxes are red ↩︎ Dogs are usually not red ↩︎</summary></entry></feed>
+&lt;p&gt;Do remember though, this is &lt;em&gt;not&lt;/em&gt; secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.&lt;/p&gt;</content><author><name>ghost</name></author><category term="Getting started" /><summary type="html">Sometimes you might want to put your site behind closed doors If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase. You can toggle this preference on at the bottom of Ghost's General Settings Ghost will give you a short, randomly generated pass-phrase which you can share with anyone who needs access to the site while you're working on it. While this setting is enabled, all search engine optimisation features will be switched off to help keep the site off the radar. Do remember though, this is not secure authentication. You shouldn't rely on this feature for protecting important private data. It's just a simple, shared pass-phrase for very basic privacy.</summary></entry></feed>

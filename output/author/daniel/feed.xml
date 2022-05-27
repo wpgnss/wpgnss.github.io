@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/author/daniel/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-05-27T14:34:36+09:00</updated>
+  <updated>2022-05-27T17:06:43+09:00</updated>
   <id>http://localhost:4000/author/daniel/feed.xml</id>
 
   
@@ -45,8 +45,8 @@
     <entry>
       <title type="html">ubuntu 22.04에서 ruby 2.7.x 설치</title>
       <link href="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04" rel="alternate" type="text/html" title="ubuntu 22.04에서 ruby 2.7.x 설치" />
-      <published>2022-05-27T09:00:00+09:00</published>
-      <updated>2022-05-27T09:00:00+09:00</updated>
+      <published>2022-05-27T00:00:00+09:00</published>
+      <updated>2022-05-27T00:00:00+09:00</updated>
       <id>http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04-</id>
       <content type="html" xml:base="http://localhost:4000/ruby-2-7-x-%EC%84%A4%EC%B9%98-ubuntu-22-04">&lt;p&gt;&lt;strong&gt;우분투 22.04&lt;/strong&gt; 환경에서 &lt;strong&gt;github page&lt;/strong&gt; 블로그를 만들려고 했습니다.&lt;/p&gt;
 
@@ -154,7 +154,7 @@
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv global 2.7.1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27/Untitled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27/ruby_install.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;jekyll-설치-및-실행&quot;&gt;Jekyll 설치 및 실행&lt;/h1&gt;
 
@@ -193,6 +193,98 @@
 
       
         <summary type="html">우분투 22.04 환경에서 github page 블로그를 만들려고 했습니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">ubuntu 22.04 에서 USB Serial(/dev/ttyUSB) 인식되지 않는 문제</title>
+      <link href="http://localhost:4000/usbserial" rel="alternate" type="text/html" title="ubuntu 22.04 에서 USB Serial(/dev/ttyUSB) 인식되지 않는 문제" />
+      <published>2022-05-27T00:00:00+09:00</published>
+      <updated>2022-05-27T00:00:00+09:00</updated>
+      <id>http://localhost:4000/usbserial</id>
+      <content type="html" xml:base="http://localhost:4000/usbserial">&lt;p&gt;ubuntu 22.04 에서 usb serial 장치를 사용하려고 연결해보았습니다.&lt;/p&gt;
+
+&lt;p&gt;이전에 사용하던 배포판(20.04) 에서는 연결하고 dialout, tty 그룹정도만 추가해주면 됬는데.. ubuntu 22.04에서는 잘되지 않았다..&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;usermod &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-G&lt;/span&gt; dialout &lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;usermod &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-G&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;tty&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$USER&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;lsusb 로 USB Serial 인식 확인됨
+    &lt;ul&gt;
+      &lt;li&gt;Silicon Labs CP210x UART Bridge&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;syslog 확인해보니 brltty에 의해 USB driver가 정상적으로 access 되지 않고 있음
+    &lt;ul&gt;
+      &lt;li&gt;sudo dmesg&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%201.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;brltty
+    &lt;ul&gt;
+      &lt;li&gt;ubuntu 22.04 에서 기본 소프트웨어로 추가된 점자 디스플레이 관련 소프트웨어&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%202.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;brltty 삭제
+    &lt;ul&gt;
+      &lt;li&gt;필요하지 않을 것으로 예상되어 brltty 삭제&lt;/li&gt;
+      &lt;li&gt;sudo apt autoremove brltty&lt;/li&gt;
+      &lt;li&gt;혹시 brltty를 사용한다면 rule을 수정해야함 (&lt;a href=&quot;https://unix.stackexchange.com/questions/670636/unable-to-use-usb-dongle-based-on-usb-serial-converter-chip&quot;&gt;https://unix.stackexchange.com/questions/670636/unable-to-use-usb-dongle-based-on-usb-serial-converter-chip&lt;/a&gt;)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%203.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;USB Serial 인식&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%204.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-27-usbserial/Untitled%205.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Daniel</name>
+        
+          <email>realjehoon@gmail.com</email>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="linux" />
+      
+
+      
+        <summary type="html">ubuntu 22.04 에서 usb serial 장치를 사용하려고 연결해보았습니다.</summary>
       
 
       
