@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/linux/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-05-31T21:08:45+09:00</updated>
+  <updated>2022-05-31T23:27:55+09:00</updated>
   <id>http://localhost:4000/tag/linux/feed.xml</id>
 
   
@@ -41,6 +41,59 @@
   
   
 
+  
+    <entry>
+      <title type="html">df - 파일 시스템 공간 확인</title>
+      <link href="http://localhost:4000/linux-command-df-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%9D%B8" rel="alternate" type="text/html" title="df - 파일 시스템 공간 확인" />
+      <published>2022-05-31T00:00:00+09:00</published>
+      <updated>2022-05-31T00:00:00+09:00</updated>
+      <id>http://localhost:4000/-linux-command-df--%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%9D%B8</id>
+      <content type="html" xml:base="http://localhost:4000/linux-command-df-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%9D%B8">&lt;p&gt;정보&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Show information about the file system on which each FILE resides,
+or all file systems by default.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;경로&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/df
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;주요 옵션&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--a&lt;/span&gt; : include pseudo, duplicate, inaccessible file systems
+&lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--human-readable&lt;/span&gt;: print sizes &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;powers of 1024 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;e.g., 1023M&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2022-05-31--linux-command-df--파일-시스템-공간-확인/Untitled.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Daniel</name>
+        
+          <email>realjehoon@gmail.com</email>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="linux" />
+      
+
+      
+        <summary type="html">정보</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">ubuntu 22.04 에서 USB Serial(/dev/ttyUSB) 인식되지 않는 문제</title>
