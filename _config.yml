@@ -44,7 +44,7 @@ disqus_shortname: jekyllt # replace with your disqus username
 
 # Google Analytics
 # Google Analytics을 사용할 경우 GA tracking identifier를 입력
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: G-PX1Y38JSYZ # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
