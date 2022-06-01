@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>dd, head - 더미파일 생성하기</title>
+        
+          <description>&lt;p&gt;NULL로 채워진 더미파일과 RANDOM 데이터로 채워진 더미파일을 생성하기 위한 스크립트&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/%EB%8D%94%EB%AF%B8%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0</link>
+        <guid isPermaLink="true">http://localhost:4000/%EB%8D%94%EB%AF%B8%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>du - 파일 공간 사용량 확인</title>
         
           <description>&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Summarize disk usage of the set of FILEs, recursively for directories.
