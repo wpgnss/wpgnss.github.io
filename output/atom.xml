@@ -8,9 +8,27 @@
     
       
       <item>
-        <title>df - 파일 시스템 공간 확인</title>
+        <title>du - 파일 공간 사용량 확인</title>
         
-          <description>&lt;p&gt;정보&lt;/p&gt;
+          <description>&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Summarize disk usage of the set of FILEs, recursively for directories.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Jun 2022 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8</link>
+        <guid isPermaLink="true">http://localhost:4000/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>df - 파일 시스템 디스크 공간 사용량 확인</title>
+        
+          <description>&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Show information about the file system on which each FILE resides,
+or all file systems by default.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
         

@@ -3,14 +3,12 @@ layout: post
 current: post
 cover:  assets/blog/linux-minecraft.png
 navigation: True
-title: df - 파일 시스템 공간 확인
+title: df - 파일 시스템 디스크 공간 사용량 확인
 tags: [linux]
 class: post-template
 subclass: 'post'
 author: daniel
 ---
-
-정보
 
 ```bash
 Show information about the file system on which each FILE resides,
