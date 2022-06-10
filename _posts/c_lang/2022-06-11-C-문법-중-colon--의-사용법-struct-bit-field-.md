@@ -10,9 +10,6 @@ subclass: 'post'
 author: daniel
 ---
 
-
-
-
 ### 참고문서
 
 [https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields](https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields)

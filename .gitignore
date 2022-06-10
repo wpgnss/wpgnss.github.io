@@ -4,7 +4,7 @@ google# OS X
 # Jekyll build
 /_site/
 .jekyll-metadata
-output/*
+/output/
 #Gemfile.lock
 
 # webstorm
