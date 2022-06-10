@@ -11,7 +11,7 @@
 
 
 
-    <title>du - 파일 공간 사용량 확인</title>
+    <title>C 문법 중 colon ':' 의 사용법 (struct bit field)</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -41,64 +41,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="-" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/blog/picture.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8" />
+    <link rel="canonical" href="http://localhost:4000/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Dev with sharing" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="du - 파일 공간 사용량 확인" />
-    <meta property="og:description" content="Summarize disk usage of the set of FILEs, recursively for directories.
-
-
-경로
-
-/usr/bin/du
-
-
-주요 옵션
-
--a, --all             write counts for all files, not just directories
--h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)
--d, --max-depth=N     print the total for a directory (or file, with --all)
-
-
-
-
-" />
-    <meta property="og:url" content="http://localhost:4000/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8" />
-    <meta property="og:image" content="http://localhost:4000/assets/blog/linux-minecraft.png" />
+    <meta property="og:title" content="C 문법 중 colon ':' 의 사용법 (struct bit field)" />
+    <meta property="og:description" content="참고문서 https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields 예제 예제코드 colon : 의 사용법 코드를 보다가 구조체를 선언할 때 아래와 같은 콜론(:)이 사용된 것을 확인했다. #include &lt;stdio.h&gt; typedef struct bit_field { unsigned int a : 2; unsigned int b : 10; unsigned int c : 32; } BitField_t; 평소에 잘 사용하지 않는 문법이라 어떻게 사용하는지 찾아보다가" />
+    <meta property="og:url" content="http://localhost:4000/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field" />
+    <meta property="og:image" content="http://localhost:4000/assets/blog/c-cpp-minecraft.png" />
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta property="article:author" content="https://www.facebook.com/ghost" />
-    <meta property="article:published_time" content="2022-06-01T00:00:00+09:00" />
-    <meta property="article:modified_time" content="2022-06-01T00:00:00+09:00" />
-    <meta property="article:tag" content="Linux" />
+    <meta property="article:published_time" content="2022-06-11T00:00:00+09:00" />
+    <meta property="article:modified_time" content="2022-06-11T00:00:00+09:00" />
+    <meta property="article:tag" content="C_cpp" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="du - 파일 공간 사용량 확인" />
-    <meta name="twitter:description" content="Summarize disk usage of the set of FILEs, recursively for directories.
-
-
-경로
-
-/usr/bin/du
-
-
-주요 옵션
-
--a, --all             write counts for all files, not just directories
--h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)
--d, --max-depth=N     print the total for a directory (or file, with --all)
-
-
-
-
-" />
+    <meta name="twitter:title" content="C 문법 중 colon ':' 의 사용법 (struct bit field)" />
+    <meta name="twitter:description" content="참고문서 https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields 예제 예제코드 colon : 의 사용법 코드를 보다가 구조체를 선언할 때 아래와 같은 콜론(:)이 사용된 것을 확인했다. #include &lt;stdio.h&gt; typedef struct bit_field { unsigned int a : 2; unsigned int b : 10; unsigned int c : 32; } BitField_t; 평소에 잘 사용하지 않는 문법이라 어떻게 사용하는지 찾아보다가" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/blog/linux-minecraft.png" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/blog/c-cpp-minecraft.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Dev with sharing" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Linux" />
+    <meta name="twitter:data2" content="C_cpp" />
     <meta name="twitter:site" content="@tryghost" />
     <meta name="twitter:creator" content="@tryghost" />
     <meta property="og:image:width" content="1400" />
@@ -113,35 +79,18 @@
         "name": "Dev with sharing",
         "logo": "http://localhost:4000/assets/blog/blog-logo-white.png"
     },
-    "url": "http://localhost:4000/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8",
+    "url": "http://localhost:4000/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/blog/linux-minecraft.png",
+        "url": "http://localhost:4000/assets/blog/c-cpp-minecraft.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8"
+        "@id": "http://localhost:4000/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field"
     },
-    "description": "Summarize disk usage of the set of FILEs, recursively for directories.
-
-
-경로
-
-/usr/bin/du
-
-
-주요 옵션
-
--a, --all             write counts for all files, not just directories
--h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)
--d, --max-depth=N     print the total for a directory (or file, with --all)
-
-
-
-
-"
+    "description": "참고문서 https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields 예제 예제코드 colon : 의 사용법 코드를 보다가 구조체를 선언할 때 아래와 같은 콜론(:)이 사용된 것을 확인했다. #include &lt;stdio.h&gt; typedef struct bit_field { unsigned int a : 2; unsigned int b : 10; unsigned int c : 32; } BitField_t; 평소에 잘 사용하지 않는 문법이라 어떻게 사용하는지 찾아보다가"
 }
     </script>
 
@@ -158,7 +107,7 @@
      crossorigin="anonymous"></script>
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="du - 파일 공간 사용량 확인" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="C 문법 중 colon ':' 의 사용법 (struct bit field)" href="/feed.xml" />
 
 
 </head>
@@ -225,21 +174,21 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-linux post ">
+        <article class="post-full  tag-c-cpp post ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 1 June 2022"> 1 June 2022</time>
+                    <time class="post-full-meta-date" datetime="11 June 2022">11 June 2022</time>
                     
                         <span class="date-divider"> / </span>
                         
                             
-                               <a href='/tag/linux/'>LINUX</a>
+                               <a href='/tag/c-cpp/'>C_CPP</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">du - 파일 공간 사용량 확인</h1>
+                <h1 class="post-full-title">C 문법 중 colon ':' 의 사용법 (struct bit field)</h1>
 
                 <span class="reading-time">
                     
@@ -251,30 +200,115 @@ into the {body} of the default.hbs template -->
 
             <!-- 
             
-            <figure class="post-full-image" style="background-image: url(/assets/blog/linux-minecraft.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/blog/c-cpp-minecraft.png)">
             </figure>
             
             -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Summarize disk usage of the set of FILEs, recursively for directories.
+                    <h3 id="참고문서">참고문서</h3>
+
+<p><a href="https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields">https://docs.microsoft.com/ko-kr/cpp/c-language/c-bit-fields</a></p>
+
+<h3 id="예제">예제</h3>
+<p><a href="https://github.com/wpgnss/tips/tree/main/bit_field">예제코드</a></p>
+
+<h3 id="colon--의-사용법">colon : 의 사용법</h3>
+
+<p>코드를 보다가 구조체를 선언할 때 아래와 같은 콜론(:)이 사용된 것을 확인했다.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+</span>
+<span class="k">typedef</span> <span class="k">struct</span> <span class="n">bit_field</span> <span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">a</span> <span class="o">:</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">b</span> <span class="o">:</span> <span class="mi">10</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">c</span> <span class="o">:</span> <span class="mi">32</span><span class="p">;</span>
+<span class="p">}</span> <span class="n">BitField_t</span><span class="p">;</span>
 </code></pre></div></div>
 
-<p>경로</p>
+<p>평소에 잘 사용하지 않는 문법이라 어떻게 사용하는지 찾아보다가 ‘<strong>구조체 비트 필드</strong>’라는 것을 알게 되었다</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/bin/du
+<p>위 예제에서 사용된 콜론의 의미는 unsigned int(4byte) 중 지정된 bit 크기만큼 사용하겠다는 의미이다.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+</span>
+<span class="k">typedef</span> <span class="k">struct</span> <span class="n">bit_field</span> <span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">a</span> <span class="o">:</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">b</span> <span class="o">:</span> <span class="mi">10</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">c</span> <span class="o">:</span> <span class="mi">32</span><span class="p">;</span>
+<span class="p">}</span> <span class="n">BitField_t</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">BitField_t</span> <span class="n">bf</span><span class="p">;</span>
+
+    <span class="n">bf</span><span class="p">.</span><span class="n">a</span> <span class="o">=</span> <span class="mi">10000</span><span class="p">;</span>
+    <span class="n">bf</span><span class="p">.</span><span class="n">b</span> <span class="o">=</span> <span class="mi">10000</span><span class="p">;</span>
+    <span class="n">bf</span><span class="p">.</span><span class="n">c</span> <span class="o">=</span> <span class="mi">10000</span><span class="p">;</span>
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%u</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">bf</span><span class="p">.</span><span class="n">a</span><span class="p">);</span>    <span class="c1">//  0:     10000 &amp; b11 (2bit)</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%u</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">bf</span><span class="p">.</span><span class="n">b</span><span class="p">);</span>    <span class="c1">//  784:   10000 &amp; b1111111111 (10bit) </span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%u</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">bf</span><span class="p">.</span><span class="n">c</span><span class="p">);</span>    <span class="c1">//  10000: 10000 &amp; b1111.....1111 (32bit) </span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"struct sizeof (%d)</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">BitField_t</span><span class="p">));</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
-<p>주요 옵션</p>
+<p>위 코드에서 bf.a, bf.b, bf.c 에 모두 값을 10000으로 할당 하더라도 출력을 해보면 모두 다른 값이 출력 된다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-a, --all             write counts for all files, not just directories
--h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)
--d, --max-depth=N     print the total for a directory (or file, with --all)
+<p><img src="assets/images/2022-06-11-C-문법-중-colon--의-사용법-struct-bit-field/Untitled.png" alt="" /></p>
 
+<p>이 값은 아래와 같은 계산에 의해 도출된다.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">integer</span> <span class="mi">10000</span> <span class="err">은</span> <span class="n">bit</span><span class="err">로</span> <span class="mi">10</span> <span class="mo">0111</span> <span class="mo">0001</span> <span class="mo">0000</span> <span class="err">이다</span><span class="p">.</span>
+<span class="n">bf</span><span class="p">.</span><span class="n">a</span> <span class="o">=</span> <span class="n">b10011100010000</span> <span class="o">&amp;</span> <span class="n">b11</span> <span class="o">=&gt;</span> <span class="n">b0</span> <span class="o">=&gt;</span> <span class="mi">0</span>
+<span class="n">bf</span><span class="p">.</span><span class="n">b</span> <span class="o">=</span> <span class="n">b10011100010000</span> <span class="o">&amp;</span> <span class="n">b1111111111</span> <span class="o">=&gt;</span> <span class="n">b1100010000</span> <span class="o">=&gt;</span> <span class="mi">784</span>
+<span class="n">bf</span><span class="p">.</span><span class="n">c</span> <span class="o">=</span> <span class="n">b10011100010000</span> <span class="o">&amp;</span> <span class="n">b1111</span><span class="p">.....</span><span class="mi">1111</span> <span class="o">=&gt;</span> <span class="n">b10011100010000</span> <span class="o">=&gt;</span> <span class="mi">10000</span>
 </code></pre></div></div>
 
-<p><img src="assets/images/2022-06-01--linux-command-du--파일-공간-사용량-확인/Untitled.png" alt="" /></p>
+<h3 id="sizeof-struct">sizeof struct</h3>
+
+<p>이렇게 선언한 bit field struct 를 sizeof 해보면 struct 의 sizeof 와 다른 점이 있다.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">typedef</span> <span class="k">struct</span> <span class="n">bit_field</span> <span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">a</span> <span class="o">:</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">b</span> <span class="o">:</span> <span class="mi">10</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">c</span> <span class="o">:</span> <span class="mi">32</span><span class="p">;</span>
+<span class="p">}</span> <span class="n">BitField_t</span><span class="p">;</span>
+
+<span class="k">typedef</span> <span class="k">struct</span> <span class="n">normal_struct</span> <span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">b</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">c</span><span class="p">;</span>
+<span class="p">}</span> <span class="n">NormalStruct_t</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p><img src="assets/images/2022-06-11-C-문법-중-colon--의-사용법-struct-bit-field/Untitled%201.png" alt="" /></p>
+
+<p>일반적으로 struct 에서 변수를 선언할 때, 변수 타입마다 정해진 크기의 메모리를 할당한다.</p>
+
+<p>때문에 위 normal_struct 는 uint(4byte) 타입의 변수 3개를 생성했기 때문에 sizeof 12가 출력 된다.</p>
+
+<p>그런대 bit field를 사용하여 선언하면, 하나의 uint 메모리에 여러 개의 변수가 선언되었다.</p>
+
+<p>이는, bit field로 선언된 변수의 bit 합이 변수 타입의 크기 이하일 때만 해당된다.</p>
+
+<p>위 예로, c : 32 로 선언된 경우 4byte(32bit) 를 모두 사용한다.</p>
+
+<p>하지만 a : 2와 b : 10 은 4byte(32bit) 두 변수가 하나의 uint 메모리에 저장될 수 있기 때문에 실제로 두 개의 변수 a, b를 선언하는데 4byte를 사용하게 된다.</p>
+
+<p>때문에 bitfield struct sizeof 는 2개의 uint 메모리를 사용하게 되어 8이 출력된다.</p>
+
+<p>그리고, 아래와 같이 bit field와 일반 변수 선언을 함께할 수 있다.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">typedef</span> <span class="k">struct</span> <span class="n">mixed_struct</span> <span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">a</span><span class="o">:</span> <span class="mi">3</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">b</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">c</span><span class="p">;</span>
+<span class="p">}</span> <span class="n">MixedStruct_t</span><span class="p">;</span>
+</code></pre></div></div>
 
                 </div>
 
@@ -353,7 +387,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; Dev with sharing &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/linux/">Linux</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/c-cpp/">C_cpp</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -363,36 +397,13 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/WSL-Ubuntu-Jammy%EC%97%90%EC%84%9C-gzip%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%8A%88">WSL Ubuntu Jammy에서 gzip이 실행되지 않는 이슈</a></li>
-                                        
                                     
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                            <li><a href="/%EB%8D%94%EB%AF%B8%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0">dd, head - 더미파일 생성하기</a></li>
-                                        
-                                    
-                                  
                                 
                                   
-                                    
-                                  
                                 
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/linux-command-df-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%9D%B8">df - 파일 시스템 디스크 공간 사용량 확인</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -401,12 +412,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
+                                            <li><a href="/Bash-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-GDB-%EC%8B%A4%ED%96%89">Bash 스크립트에서 GDB 실행</a></li>
                                         
                                     
                                   
@@ -414,10 +420,16 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                
+                                  
                                     
                                         
                                         
+                                            <li><a href="/difference_const_ptr">const 키워드 사용 정리 (int const *, int * const)</a></li>
+                                        
                                     
+                                  
+                                
                                   
                                 
                                   
@@ -425,9 +437,9 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/linux/">
+                            <a href="/tag/c-cpp/">
                                 
-                                    See all 6 posts  →
+                                    See all 2 posts  →
                                 
                             </a>
                         </footer>
@@ -437,59 +449,6 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/%EB%8D%94%EB%AF%B8%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0">
-                <div class="post-card-image" style="background-image: url(/assets/blog/linux-minecraft.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/%EB%8D%94%EB%AF%B8%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Linux</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">dd, head - 더미파일 생성하기</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>NULL로 채워진 더미파일과 RANDOM 데이터로 채워진 더미파일을 생성하기 위한 스크립트
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/blog/picture.png" alt="Daniel" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/daniel/">Daniel</a>
-                        </span>
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -497,12 +456,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/linux-command-df-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%9D%B8">
+            <a class="post-card-image-link" href="/WSL-Ubuntu-Jammy%EC%97%90%EC%84%9C-gzip%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%8A%88">
                 <div class="post-card-image" style="background-image: url(/assets/blog/linux-minecraft.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/linux-command-df-%ED%8C%8C%EC%9D%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%9D%B8">
+            <a class="post-card-content-link" href="/WSL-Ubuntu-Jammy%EC%97%90%EC%84%9C-gzip%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%8A%88">
                 <header class="post-card-header">
                     
                         
@@ -512,13 +471,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">df - 파일 시스템 디스크 공간 사용량 확인</h2>
+                    <h2 class="post-card-title">WSL Ubuntu Jammy에서 gzip이 실행되지 않는 이슈</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Show information about the file system on which each FILE resides,
-or all file systems by default.
-
+                        <p>gzip을 사용할 때 아래와 같은 메시지를 출력하며 에러 발생
 
 </p>
                     
@@ -564,18 +521,18 @@ or all file systems by default.
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">du - 파일 공간 사용량 확인</div>
+    <div class="floating-header-title">C 문법 중 colon ':' 의 사용법 (struct bit field)</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=du+-+%ED%8C%8C%EC%9D%BC+%EA%B3%B5%EA%B0%84+%EC%82%AC%EC%9A%A9%EB%9F%89+%ED%99%95%EC%9D%B8&amp;url=https://jekyllt.github.io/jasper2/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=C+%EB%AC%B8%EB%B2%95+%EC%A4%91+colon+%27%3A%27+%EC%9D%98+%EC%82%AC%EC%9A%A9%EB%B2%95+%28struct+bit+field%29&amp;url=https://jekyllt.github.io/jasper2/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jekyllt.github.io/jasper2/linux-command-du-%ED%8C%8C%EC%9D%BC-%EA%B3%B5%EA%B0%84-%EC%82%AC%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://jekyllt.github.io/jasper2/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

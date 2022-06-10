@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>C 문법 중 colon ':' 의 사용법 (struct bit field)</title>
+        
+          <description>&lt;h3 id=&quot;참고문서&quot;&gt;참고문서&lt;/h3&gt;
+
+</description>
+        
+        <pubDate>Sat, 11 Jun 2022 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field</link>
+        <guid isPermaLink="true">http://localhost:4000/C-%EB%AC%B8%EB%B2%95-%EC%A4%91-colon-%EC%9D%98-%EC%82%AC%EC%9A%A9%EB%B2%95-struct-bit-field</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>WSL Ubuntu Jammy에서 gzip이 실행되지 않는 이슈</title>
         
           <description>&lt;p&gt;gzip을 사용할 때 아래와 같은 메시지를 출력하며 에러 발생&lt;/p&gt;
