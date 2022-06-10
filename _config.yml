@@ -89,7 +89,7 @@ lsi: False
 # repo: travis-ci와 연동하는 github의 repository이름
 # https://github.com/<username>/<repository>
 username: wpgnss
-repo: jasper2
+repo: wpgnss.github.io
 branch: master
 relative_source: 
 destination: ./output/
@@ -101,9 +101,9 @@ destination: ./output/
 
 
 # 최종적으로 blog가 운영될 url
-production_url:  https://jekyllt.github.io/jasper2/
+production_url:  https://wpgnss.github.io/
 # blogmaker(jekyll source folder)에 대한 github repository
-source_url:  https://github.com/jekyllt/jasper2/
+source_url:  https://github.com/wpgnss/wpgnss.github.io
 
 exclude:
   - assets/css
