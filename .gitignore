@@ -1,9 +1,10 @@
-# OS X
+google# OS X
 .DS_Store
 
 # Jekyll build
 /_site/
 .jekyll-metadata
+output/*
 #Gemfile.lock
 
 # webstorm
