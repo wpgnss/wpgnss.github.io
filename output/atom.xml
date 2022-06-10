@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>WSL Ubuntu Jammy에서 gzip이 실행되지 않는 이슈</title>
+        
+          <description>&lt;p&gt;gzip을 사용할 때 아래와 같은 메시지를 출력하며 에러 발생&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 10 Jun 2022 00:00:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/WSL-Ubuntu-Jammy%EC%97%90%EC%84%9C-gzip%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%8A%88</link>
+        <guid isPermaLink="true">http://localhost:4000/WSL-Ubuntu-Jammy%EC%97%90%EC%84%9C-gzip%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%8A%88</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>dd, head - 더미파일 생성하기</title>
         
           <description>&lt;p&gt;NULL로 채워진 더미파일과 RANDOM 데이터로 채워진 더미파일을 생성하기 위한 스크립트&lt;/p&gt;
