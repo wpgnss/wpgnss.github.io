@@ -1,4 +1,5 @@
 
 User-agent: *
 Allow: /
+
 Sitemap: https://wpgnss.github.io/sitemap.xml
